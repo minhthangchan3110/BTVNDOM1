@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Đo chỉ số(BMI)</h1>
+    <form id="calc">
+      <div class="firstLabel">
+        <label>Chiều cao: </label>
+        <input class="values" type="text" id="num1" required />
+      </div>
+      <br />
+      <div>
+        <label>Cân nặng: </label>
+        <input class="values" type="text" id="num2" required />
+      </div>
+      <br />
+      <div id="gender">
+        <input name="gender" type="radio" value="0" checked />
+        <label>Nữ</label>
+        <input name="gender" type="radio" value="1" />
+        <label>Nam</label>
+      </div>
+      <br />
+      <button id="btn" type="submit" class="btn btn-primary">Tính BMI</button>
+      <div>
+        <h4>Kết quả</h4>
+        <p id="result"></p>
+
+        <p id="message"></p>
+      </div>
+    </form>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
